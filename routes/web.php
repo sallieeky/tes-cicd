@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return "INI BARU LOH";
+    return "INI BARU LOH COBA TENGOK";
 });
