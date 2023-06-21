@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return "Hallo world INI BARU TERBARU BARU SANGAT PAKE APLEBOY 4 last";
+    return "Hallo world INI BARU TERBARU BARU SANGAT PAKE APLEBOY 5 last AWdapodakopwd";
 });
