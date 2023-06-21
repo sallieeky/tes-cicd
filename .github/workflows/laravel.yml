@@ -19,5 +19,5 @@ jobs:
         password: Eky12345
         port: 22
         script: |
-          pwd
-          sudo su; git pull /var/www/html/tes-cicd
+          cd /var/www/html/tes-cicd
+          git pull origin main
