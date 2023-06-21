@@ -7,14 +7,16 @@ on:
     branches: [ "main" ]
 
 jobs:
-  laravel-tests:
-
+  build:
+    name: Build
     runs-on: ubuntu-latest
-
     steps:
-    - uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@v0.1.10
       with:
-        php-version: '8.1'
-    - uses: actions/checkout@v2
-    - name: Pull Latest Code
-      run: git pull origin main
+        host: 103.37.125.218
+        username: lixie
+        password: Eky12345
+        port: 22
+        script: |
+          git pull
