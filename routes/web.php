@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return "Hallo world INI BARU BANGAEAJIOWDJ";
+    return "Hallo world INI BARU TERBARU BARU";
 });
